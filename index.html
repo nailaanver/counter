@@ -12,14 +12,15 @@
         <h1>Counter</h1>
         </div>
         <div class="box">
-        <input type="text" value="0">
+            <input type="text" id="count" value="0" >
         </div>
         <div class="btn">
-            <button>-</button>
-            <button><img src="./assets/refresh.png" ></button>
-            <button>+</button>
+            <button onclick="minus()">-</button>
+            <button onclick="reset()">↻</button>
+            <button onclick="plus()">+</button>
         </div>
-    </div>
+        </div>
+    <script src="./index.js"></script>
 </body>
-<script src="./index.js"></script>
+
 </html>
